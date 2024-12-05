@@ -1,0 +1,51 @@
+.icon {
+    display: inline-block;
+    width: calc(var(--icon-size) * 3);
+    height: calc(var(--icon-size) * 3);
+    background: url(../assets/img/icon-default.svg) center/contain no-repeat transparent;
+}
+
+.icon-bitcoin {
+    background-image: url(assets/img/icon-bitcoin.svg);
+}
+
+.icon-electroneum {
+    background-image: url(assets/img/icon-electroneum.svg);
+}
+
+.icon-ethereum {
+    background-image: url(assets/img/icon-ethereum.svg);
+}
+
+.icon-ethos {
+    background-image: url(assets/img/icon-ethos.svg);
+}
+
+.icon-metaverse-etp {
+    background-image: url(assets/img/icon-metaverse-etp.svg);
+}
+
+.icon-sm {
+    width: calc(var(--icon-size) * 2);
+    height: calc(var(--icon-size) * 2);
+}
+
+.icon-md {
+    width: calc(var(--icon-size) * 3);
+    height: calc(var(--icon-size) * 3);
+}
+
+.icon-lg {
+    width: calc(var(--icon-size) * 4);
+    height: calc(var(--icon-size) * 4);
+}
+
+.icon-xl {
+    width: calc(var(--icon-size) * 5);
+    height: calc(var(--icon-size) * 5);
+}
+
+.icon-xxl {
+    width: calc(var(--icon-size) * 6);
+    height: calc(var(--icon-size) * 6);
+}
